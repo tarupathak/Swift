@@ -133,7 +133,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 
 .swissImg {
@@ -219,8 +219,8 @@
   text-align: right;
 }
 
-.carousal img{
-    height: 20vw;
+.carousal img {
+  height: 20vw;
 }
 
 .name {
@@ -231,8 +231,60 @@
   width: 7vw;
 }
 
-.testimonials{
-    color:#002a54;
-    margin-left: 2vw;
-    margin-top: 2vw;
+.testimonials {
+  color: #002a54;
+  margin-left: 2vw;
+  margin-top: 2vw;
+}
+
+/* <----------------------------Home Page----------------------------> */
+
+.redBack {
+  background-color: #e62933;
+  height: 27vw;
+  width: 100%;
+  position: relative;
+}
+
+.redBack img {
+  position: absolute;
+  height: 45vw;
+  margin-top: -12vw;
+  margin-left: 12vw;
+}
+
+.blueBack {
+    padding: 2vw;
+    color: white;
+    position: absolute;
+  border-radius: 2vw;
+  border: 2px solid #fff;
+  background: linear-gradient(
+    125deg,
+    #002a54 1.56%,
+    #002a54 49.23%,
+    rgba(0, 42, 84, 0.89) 95.34%
+  );
+  backdrop-filter: blur(11px);
+  height: 30vw;
+  width: 40vw;
+ margin-left: 3vw;
+ margin-top: -2vw;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.truckTxt{
+    font-size: 2.5vw;
+}
+
+.smlTruckTxt{
+    font-size: 1.4vw;
+}
+
+.smlTruckTxt2{
+    font-size: 2vw;
 }

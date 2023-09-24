@@ -2,10 +2,10 @@ import React from "react";
 import "./Components.css";
 import telephone from "../Assets/telephone.svg";
 
-const Navbar = () => {
+const Navbar2 = () => {
   return (
     <>
-      <div className="navbar">
+      <div className="navbar2">
         <div id="nav1">
           <span className="navItem">
             <u>WHY SWIFT TRANSPORT</u>
@@ -27,4 +27,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar2;
