@@ -6,6 +6,10 @@ const Navbar2 = () => {
   return (
     <>
       <div className="navbar2">
+        <div className="flexB">
+          <img src={telephone} />
+          <p>Call Us 1300 779 438</p>
+        </div>
         <div id="nav1">
           <span className="navItem">
             <u>WHY SWIFT TRANSPORT</u>

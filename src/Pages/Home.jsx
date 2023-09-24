@@ -2,7 +2,6 @@ import React from "react";
 import Navbar2 from "../Components/Navbar2";
 import Moto from "../Components/Moto";
 import Footer from "../Components/Footer";
-import img from "../Assets/bgImgHome.svg";
 import truck from "../Assets/truck.svg";
 import truk from "../Assets/truk.svg";
 import rail from "../Assets/rail.svg";
@@ -13,6 +12,11 @@ import orange from "../Assets/orangeArrow.svg";
 import white from "../Assets/whiteArrow.svg";
 import good from "../Assets/good.svg";
 import card from "../Assets/card.svg";
+import truckTwo from "../Assets/truckTwo.svg";
+import abc from "../Assets/abc.svg";
+import img1 from "../Assets/img1.svg";
+import img2 from "../Assets/img2.svg";
+import img3 from "../Assets/img3.svg";
 
 const Home = () => {
   return (
@@ -20,6 +24,13 @@ const Home = () => {
       {/* <-----------------Navbar-----------------> */}
       <Navbar2 />
       {/* <-----------------Home Background-----------------> */}
+      <div className="homeHero">
+        <div>
+          <h3>Cheaper delivery costs through innovative vehicle design</h3>
+          <h5>OUR 1 TONNE VEHICLES CAN HANDLE WHAT OTHERS CAN’T. YOU'LL BE PLEASANTLY SUPRISED</h5>
+          <p><b><u>Taxi and Courier truck</u></b></p>
+        </div>
+      </div>
       {/* <-----------------Truck Image Part-----------------> */}
       <div className="home">
         <div className="redBack">
@@ -129,6 +140,115 @@ const Home = () => {
           </div>
         </div>
       </div>
+      {/* <-----------------News-----------------> */}
+      <div className="redBack3">
+        <p
+          style={{
+            display: "flex",
+            fontWeight: "bold",
+            color: "white",
+            fontSize: "2vw",
+          }}
+        >
+          News
+        </p>
+        <div className="flexContainer ">
+          <div className="flexCard2">
+            <img src={img1} />
+            <p
+              style={{
+                fontSize: "1.8vw",
+                margin: "1vw",
+              }}
+            >
+              Asia-US container rates tick lower; Canada port strike enters 7th
+              day
+            </p>
+            <p
+              style={{
+                fontSize: "1.2vw",
+                margin: "1vw",
+              }}
+            >
+              Network of strategically based sites located on port (within 1km
+              of container terminals) and off-port (within 15kms of capital city
+              industrial zones){" "}
+            </p>
+            <p
+              style={{
+                color: "#ED1B24",
+                fontWeight: "bold",
+                margin: "1vw",
+              }}
+            >
+              Read more
+            </p>
+          </div>
+
+          <div className="flexCard2">
+            <img src={img2} />
+            <p
+              style={{
+                fontSize: "1.8vw",
+                margin: "1vw",
+              }}
+            >
+              World Shipping Council Releases Containers Lost At Sea Report
+            </p>
+            <p
+              style={{
+                fontSize: "1.2vw",
+                margin: "1vw",
+              }}
+            >
+              Network of strategically based sites located on port (within 1km
+              of container terminals) and off-port (within 15kms of capital city
+              industrial zones)
+            </p>
+            <p
+              style={{
+                color: "#ED1B24",
+                fontWeight: "bold",
+                margin: "1vw",
+              }}
+            >
+              Read more
+            </p>
+          </div>
+
+          <div className="flexCard2">
+            <img src={img3} />
+            <p
+              style={{
+                fontSize: "1.8vw",
+                margin: "1vw",
+              }}
+            >
+              Top Shipping Stocks for Q2 2023
+            </p>
+            <p
+              style={{
+                fontSize: "1.2vw",
+                margin: "1vw",
+              }}
+            >
+              ZIM Integrated Shipping Services, Kirby Corp., and Ardmore
+              Shipping are the top performers for value, growth, and momentum,
+              respectively.
+            </p>
+            <p
+              style={{
+                color: "#ED1B24",
+                fontWeight: "bold",
+                margin: "1vw",
+              }}
+            >
+              Read more
+            </p>
+          </div>
+        </div>
+      </div>
+
       {/* <---------------Contact Us-------------> */}
       <div className="contactUs">
         <div>
@@ -147,6 +267,21 @@ const Home = () => {
         </div>
         <div className="redCard">
           <img src={card} />
+        </div>
+      </div>
+      {/* <-----------------Truck two-----------------> */}
+      <div className="truckTwo">
+        <div className="tr2">
+          <img src={truckTwo} />
+        </div>
+        <div>
+          <p style={{ color: "#002A54", fontSize: "2vw", fontWeight: "bold" }}>
+            We deliver, no matter how hard the challenge.
+          </p>
+          <img src={abc} style={{ height: "18vw" }} />
+          <p className="smlTxt" style={{ color: "white" }}>
+            <u>Kennards Hire Case Study</u>
+          </p>
         </div>
       </div>
       {/* <-----------------Moto-----------------> */}

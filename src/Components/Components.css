@@ -9,9 +9,11 @@
   align-items: flex-end;
   justify-content: space-around;
   float: right;
+  z-index: 10;
 }
 
 .navbar2 {
+  position: absolute;
   height: 13vw;
   width: 100%;
   display: flex;
@@ -19,6 +21,7 @@
   align-items: flex-end;
   justify-content: space-around;
   float: right;
+  z-index: 10;
 }
 
 .navItem {
@@ -28,7 +31,8 @@
 }
 
 #nav1 {
-  margin-top: 6vw;
+  margin-right: 1vw;
+  font-size: 1.2vw;
   margin-right: 2vw;
 }
 
@@ -90,4 +94,16 @@
   font-size: 1.3vw;
   font-weight: 300;
   margin-bottom: 0.5vw;
+}
+
+
+.flexB{
+  margin-right: 3vw;
+  font-size: 1.2vw;
+  color: white;
+  margin-top: 6vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }

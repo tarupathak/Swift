@@ -239,6 +239,24 @@
 
 /* <----------------------------Home Page----------------------------> */
 
+.homeHero{
+  background-image: url("../Assets//bgImgHome.svg");
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+.homeHero div{
+  display:"flex";
+  flex-direction:"column";
+  color: white;
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  text-align: end;
+  width: 40%;
+}
+
 .redBack {
   background-color: #e62933;
   height: 27vw;
@@ -384,7 +402,7 @@
 
 .redBack2 {
   background-color: #e62933;
- 
+
   height: 45vw;
   width: 100%;
   display: flex;
@@ -401,17 +419,55 @@
   justify-content: space-around;
 }
 
-.redTxt p{
+.redTxt p {
   font-size: 3vw;
   color: white;
   font-weight: 700;
 }
 
-.redTxt img{
+.redTxt img {
   margin-top: 2vw;
-height: 24vw;
+  height: 24vw;
 }
 
-.redCard img{
+.redCard img {
   height: 35vw;
+}
+
+.truckTwo {
+  background-color: #b0b0b0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50vw;
+}
+
+.tr2 {
+  height: 24vw;
+}
+
+.redBack3 {
+  background-color: #e62933;
+  height: 55vw;
+  width: 100%;
+  background-image: url("../Assets/redImg.svg");
+  padding: 2vw;
+}
+
+.flexCard2{
+  margin-top: 2vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #002a54;
+  justify-content: space-evenly;
+  width: 24vw;
+  height: fit-content;
+  border-radius: 0vw 4vw;
+}
+.flexCard2 img{
+  width: 28vw;
+  margin-top: -2vw;
 }
