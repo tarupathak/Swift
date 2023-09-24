@@ -7,6 +7,7 @@ import coatsHire from "../Assets/coatsHire.svg";
 import system from "../Assets/system.svg";
 import abc from "../Assets/abc.svg";
 import Moto from "../Components/Moto";
+import Footer from "../Components/Footer";
 
 const WhySwift = () => {
   return (
@@ -90,6 +91,8 @@ const WhySwift = () => {
       </div>
       {/* <-----------------Moto-----------------> */}
       <Moto />
+      {/* <-----------------Footer-----------------> */}
+      <Footer />
     </>
   );
 };
