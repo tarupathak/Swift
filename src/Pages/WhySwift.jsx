@@ -8,8 +8,21 @@ import system from "../Assets/system.svg";
 import abc from "../Assets/abc.svg";
 import Moto from "../Components/Moto";
 import Footer from "../Components/Footer";
+import { Carousel, RadioGroup, Radio, Divider } from "rsuite";
+import img from "../Assets/img.svg";
+
+const styles = {
+  radioGroupLabel: {
+    padding: "8px 12px",
+    display: "inline-block",
+    verticalAlign: "middle",
+    backgroundColor: "white",
+  },
+};
 
 const WhySwift = () => {
+  const [placement, setPlacement] = React.useState("bottom");
+  const [shape, setShape] = React.useState("dot");
   return (
     <>
       {/* <-----------------Navbar-----------------> */}
@@ -88,6 +101,65 @@ const WhySwift = () => {
             <img src={system} />
           </div>
         </div>
+      </div>
+      {/* <-----------------Testimonials-----------------> */}
+      <div>
+      <h2 className="testimonials">Testimonials</h2>
+        <Carousel
+          key={`${placement}.${shape}`}
+          placement={placement}
+          shape={shape}
+          className="custom-slider"
+        >
+          <div className="carousal">
+            <img src={img} alt="img" />
+            <div>
+              <p>
+                We use Swift Transport for a few different outcomes, relocate
+                equipment between Sydney and the Central Coast and an Hourly
+                Work as Directed Service. We simply make a call and the next day
+                a driver in a fully equipped ute arrives ready for work. When we
+                need to send items to Sydney that are planned, it works out far
+                better to use Swift than use our own vehicles. The vehicles are
+                well presented, well fitted and the drivers are all very
+                helpful, and the rate is always excellent.
+              </p>
+              <p className="name">Peter Santwyk, Allcott Hire, Nth Regional Area Mgr</p>
+            </div>
+          </div>
+          <div className="carousal">
+            <img src={img} alt="img" />
+            <div>
+              <p>
+                We use Swift Transport for a few different outcomes, relocate
+                equipment between Sydney and the Central Coast and an Hourly
+                Work as Directed Service. We simply make a call and the next day
+                a driver in a fully equipped ute arrives ready for work. When we
+                need to send items to Sydney that are planned, it works out far
+                better to use Swift than use our own vehicles. The vehicles are
+                well presented, well fitted and the drivers are all very
+                helpful, and the rate is always excellent.
+              </p>
+              <p className="name">Peter Santwyk, Allcott Hire, Nth Regional Area Mgr</p>
+            </div>
+          </div>
+          <div className="carousal">
+            <img src={img} alt="img" />
+            <div>
+              <p>
+                We use Swift Transport for a few different outcomes, relocate
+                equipment between Sydney and the Central Coast and an Hourly
+                Work as Directed Service. We simply make a call and the next day
+                a driver in a fully equipped ute arrives ready for work. When we
+                need to send items to Sydney that are planned, it works out far
+                better to use Swift than use our own vehicles. The vehicles are
+                well presented, well fitted and the drivers are all very
+                helpful, and the rate is always excellent.
+              </p>
+              <p className="name">Peter Santwyk, Allcott Hire, Nth Regional Area Mgr</p>
+            </div>
+          </div>
+        </Carousel>
       </div>
       {/* <-----------------Moto-----------------> */}
       <Moto />

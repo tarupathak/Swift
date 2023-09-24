@@ -3,3 +3,6 @@ body{
   padding: 0;
   display: block;
 }
+
+@import "rsuite/dist/rsuite.css";
+
