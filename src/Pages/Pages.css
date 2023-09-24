@@ -171,7 +171,7 @@
 .caseStudy {
   background-color: #002a54;
   background-image: url("../Assets/caseStudy.svg");
-  height: 40vw;
+  height: fit-content;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -187,15 +187,18 @@
 .whiteBg{
     background-color: #FFFFFF;
     width: 100%;
-    height: 28vw;
+    height: fit-content;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 3vw;
 }
 
-
-
 .boxImg img{
-    height: 19vw;
+    height: 18vw;
+}
+
+#abc img{
+    height: 22vw;
 }

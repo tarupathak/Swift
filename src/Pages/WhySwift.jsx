@@ -6,6 +6,7 @@ import swissImg from "../Assets/whySwissImg.svg";
 import coatsHire from "../Assets/coatsHire.svg";
 import system from "../Assets/system.svg";
 import abc from "../Assets/abc.svg";
+import Moto from "../Components/Moto";
 
 const WhySwift = () => {
   return (
@@ -79,7 +80,7 @@ const WhySwift = () => {
           <div className="boxImg">
             <img src={coatsHire} />
           </div>
-          <div className="boxImg">
+          <div className="boxImg" id="abc">
             <img src={abc} />
           </div>
           <div className="boxImg">
@@ -87,6 +88,8 @@ const WhySwift = () => {
           </div>
         </div>
       </div>
+      {/* <-----------------Moto-----------------> */}
+      <Moto />
     </>
   );
 };

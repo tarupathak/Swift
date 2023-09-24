@@ -39,3 +39,26 @@
     border-style: none;
     border-radius: .3vw;
 }
+
+/*<---------------------Moto--------------------->*/
+
+.moto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2vw;
+}
+
+.card{
+    width: 12vw;
+    height: 20vw;
+    text-align: center;
+    font-size: 1.4vw;
+    color:#002A54;
+}
+
+.card img{
+    height: 6vw;
+}
+
