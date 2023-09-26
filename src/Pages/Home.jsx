@@ -26,28 +26,46 @@ const Home = () => {
       {/* <-----------------Home Background-----------------> */}
       <div className="homeHero">
         <div>
-          <h3>Cheaper delivery costs through innovative vehicle design</h3>
-          <h5>OUR 1 TONNE VEHICLES CAN HANDLE WHAT OTHERS CAN’T. YOU'LL BE PLEASANTLY SUPRISED</h5>
-          <p><b><u>Taxi and Courier truck</u></b></p>
+          <h3
+            style={{
+              fontSize: "2.6vw",
+              marginBottom: "1.3vw",
+              lineHeight: "3vw",
+            }}
+          >
+            Cheaper delivery costs through innovative vehicle design
+          </h3>
+          <h5 style={{ fontSize: "1.5vw", lineHeight: "2vw" }}>
+            OUR 1 TONNE VEHICLES CAN HANDLE WHAT OTHERS CAN’T. YOU'LL BE
+            PLEASANTLY SUPRISED
+          </h5>
+          <p style={{ fontSize: "1.2vw" }}>
+            <b>
+              <u>Taxi and Courier truck</u>
+            </b>
+          </p>
         </div>
       </div>
       {/* <-----------------Truck Image Part-----------------> */}
       <div className="home">
         <div className="redBack">
           <div className="blueBack">
-            <h2 className="truckTxt">
+            <h2
+              className="truckTxt"
+              style={{ fontSize: "2.2vw", lineHeight: "3vw" }}
+            >
               A fleet capable of much more than you’d think
             </h2>
-            <p className="smlTruckTxt">
+            <div className="smlTruckTxt" style={{ fontSize: "1.4vw" }}>
               With a diverse range of utes, trucks and semi-trailers, Swift
               Transport is capable of much more than you'd think. Combine our
               versatile fleet wth our industry leading technology and 'can-do'
               attitude for a winning logistics partnership with your
               organization.
-            </p>
-            <p className="smlTruckTxt2">
+            </div>
+            <div className="smlTruckTxt2" style={{ fontSize: "1.8vw" }}>
               <u>WHYSWIFT</u>
-            </p>
+            </div>
           </div>
           <img src={truck} alt="truck" />
         </div>
@@ -179,6 +197,7 @@ const Home = () => {
                 color: "#ED1B24",
                 fontWeight: "bold",
                 margin: "1vw",
+                fontSize: "1.4vw",
               }}
             >
               Read more
@@ -210,6 +229,7 @@ const Home = () => {
                 color: "#ED1B24",
                 fontWeight: "bold",
                 margin: "1vw",
+                fontSize: "1.4vw",
               }}
             >
               Read more
@@ -241,6 +261,7 @@ const Home = () => {
                 color: "#ED1B24",
                 fontWeight: "bold",
                 margin: "1vw",
+                fontSize: "1.4vw",
               }}
             >
               Read more
@@ -255,7 +276,7 @@ const Home = () => {
           <p>Have a question regarding Swift services?</p>
           <div style={{ display: "flex", fontWeight: "bold" }}>
             <p>Contact us</p>
-            <image style={{ width: "4vw" }} src={white} />
+            <img style={{ width: "4vw", marginLeft: "1vw" }} src={white} />
           </div>
         </div>
       </div>
@@ -272,7 +293,7 @@ const Home = () => {
       {/* <-----------------Truck two-----------------> */}
       <div className="truckTwo">
         <div className="tr2">
-          <img src={truckTwo} />
+          <img src={truckTwo} style={{ height: "35vw" }} />
         </div>
         <div>
           <p style={{ color: "#002A54", fontSize: "2vw", fontWeight: "bold" }}>
@@ -287,7 +308,7 @@ const Home = () => {
       {/* <-----------------Moto-----------------> */}
       <Moto />
       {/* <-----------------Footer-----------------> */}
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

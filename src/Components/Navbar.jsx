@@ -2,15 +2,22 @@ import React from "react";
 import "./Components.css";
 import telephone from "../Assets/telephone.svg";
 
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <>
       <div className="navbar">
         <div id="nav1">
-          <span className="navItem">
-            <u>WHY SWIFT TRANSPORT</u>
-          </span>
-          <span className="navItem">FLEET</span>
+          <Link to="/whySwift">
+            <span className="navItem">
+              <u>WHY SWIFT TRANSPORT</u>
+            </span>
+          </Link>
+          <Link to="/">
+            <span className="navItem">FLEET</span>
+          </Link>
+
           <span className="navItem">COMPANY POLICIES</span>
           <span className="navItem">ABOUT US</span>
           <span className="navItem">CONTACT US</span>

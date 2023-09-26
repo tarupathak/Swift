@@ -241,7 +241,7 @@
 
 .homeHero{
   background-image: url("../Assets//bgImgHome.svg");
-  height: 100vh;
+  height: 50vw;
   background-size: cover;
   position: relative;
 }
@@ -295,24 +295,14 @@
   justify-content: space-between;
 }
 
-.truckTxt {
-  font-size: 2.5vw;
-}
 
-.smlTruckTxt {
-  font-size: 1.4vw;
-}
-
-.smlTruckTxt2 {
-  font-size: 2vw;
-}
 
 /* <----------------------------Home Page - Services ----------------------------> */
 
 .service {
   background-color: #0b2952;
   width: 100%;
-  height: 100vw;
+  height: fit-content;
   padding: 4vw;
   color: white;
 }
@@ -449,7 +439,7 @@
 
 .redBack3 {
   background-color: #e62933;
-  height: 55vw;
+  height: fit-content;
   width: 100%;
   background-image: url("../Assets/redImg.svg");
   padding: 2vw;
@@ -464,7 +454,7 @@
   color: #002a54;
   justify-content: space-evenly;
   width: 24vw;
-  height: fit-content;
+  height: 40vw;
   border-radius: 0vw 4vw;
 }
 .flexCard2 img{
