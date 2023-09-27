@@ -466,6 +466,13 @@
   margin-top: -2vw;
 }
 
+.bigTxt4 {
+  font-size: 4vw;
+  margin-top: 2vw;
+  font-weight: bold;
+  margin-bottom: 1.4vw;
+}
+
 @media screen and (max-width: 430px) {
   .blueBg {
     flex-direction: column-reverse;
@@ -492,4 +499,6 @@
   .homeBox {
     flex-direction: row;
   }
+
+  
 }

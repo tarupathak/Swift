@@ -31,7 +31,7 @@ const WhySwift = () => {
       <div className="bgImg">
         <img src={bgImg} alt="bgImg" />
         <div className="textFloat">
-          <div className="bigTxt">Why Swift Transport</div>
+          <div className="bigTxt4">Why Swift Transport</div>
           <div className="smlTxt">
             Here from our loyal customers about why they’re happy to recommend
             us to you.
