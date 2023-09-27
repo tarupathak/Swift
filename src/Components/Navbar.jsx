@@ -34,7 +34,7 @@ const Navbar = () => {
           <span className="navItem1">Complete Warehousing Solution</span>
         </div>
       </div>
-      <div className="mobNav">
+      <div className="mobNav" style={{backgroundColor:"#002a54"}}>
         <div>
           <img src={phone} />
           <img onClick={()=>setNavOpen(!navOpen)} src={hamburger} />

@@ -250,7 +250,7 @@
   }
 
   .mobNav div{
-    background-color: red;
+  
     height: 4vh;
     display: flex;
     justify-content: end;
@@ -260,6 +260,7 @@
   .mobNav div img {
     padding: 0.5vh;
   }
+
 
   .navList{ 
     position: fixed;
