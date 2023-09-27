@@ -19,11 +19,11 @@ const Navbar2 = () => {
         <div id="nav1">
           <Link to="/whySwift">
             <span className="navItem">
-              <u>WHY SWIFT TRANSPORT</u>
+              WHY SWIFT TRANSPORT
             </span>
           </Link>
           <Link to="/">
-            <span className="navItem">FLEET</span>
+            <span className="navItem"><u>FLEET</u></span>
           </Link>
           <span className="navItem">COMPANY POLICIES</span>
           <span className="navItem">ABOUT US</span>
