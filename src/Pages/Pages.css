@@ -182,6 +182,7 @@
   text-align: left;
   margin-left: 2vw;
   color: white;
+  font-size: 3vw;
 }
 
 .whiteBg {
@@ -233,8 +234,16 @@
 
 .testimonials {
   color: #002a54;
+  font-size: 3vw;
   margin-left: 2vw;
   margin-top: 2vw;
+}
+
+
+
+.custom-slider{
+
+  height: 30vw;
 }
 
 /* <----------------------------Home Page----------------------------> */
