@@ -143,6 +143,7 @@
   position: relative;
 }
 
+
 .swissImg img {
   height: 75vw;
   z-index: 2vw;
@@ -155,7 +156,7 @@
   text-align: left;
   padding: 2vw;
   background-color: white;
-  height: 60vw;
+  height: fit-content;
   margin-left: 7vw;
   width: 80vw;
 }
@@ -500,5 +501,6 @@
     flex-direction: row;
   }
 
+  
   
 }

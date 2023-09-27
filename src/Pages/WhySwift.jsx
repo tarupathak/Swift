@@ -68,7 +68,7 @@ const WhySwift = () => {
       {/* <-----------------Why swift-----------------> */}
       <div className="whySwift">
         <div className="whiteBox">
-          <h2 style={{fontSize: "3vw", marginBottom:"2vw"}}>Why Swift</h2>
+          <h2 style={{fontSize: "3vw"}}>Why Swift</h2>
           <p style={{fontSize: "1.9vw"}}>
             As a supplier we are a responsive business partner that can ensure
             quality and supply. We value strong relationships with our customers
